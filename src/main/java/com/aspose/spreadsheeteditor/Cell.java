@@ -2,7 +2,7 @@ package com.aspose.spreadsheeteditor;
 
 import java.io.Serializable;
 import java.util.HashSet;
-import java.util.StringJoiner;
+// import java.util.StringJoiner;
 
 public class Cell implements Serializable {
 
@@ -61,11 +61,14 @@ public class Cell implements Serializable {
     }
 
     public String getCssClass() {
-        StringJoiner j = new StringJoiner(" ");
+        // StringJoiner j = new StringJoiner(" ");
+        String str = "";
         for (String s : this.cssClass) {
-            j.add(s);
+            // j.add(s);
+            str += s + " ";
         }
-        return j.toString();
+        // return j.toString();
+        return str.trim();
     }
 
     public Cell setStyle(String style) {

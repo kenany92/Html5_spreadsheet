@@ -2,3 +2,5 @@ target/
 *.lic
 *.xls*
 nb-configuration.xml
+.idea/
+

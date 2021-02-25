@@ -17,11 +17,21 @@
     </properties>
     
     <dependencies>
-        <dependency>
+        <!-- <dependency>
             <groupId>com.aspose</groupId>
             <artifactId>aspose-cells</artifactId>
-            <version>8.1.2</version>
-        </dependency>
+            <version>8.2.1</version>
+        </dependency> -->
+        <!-- <dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-cells</artifactId>
+    <version>21.2</version>
+</dependency> -->
+        <dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-cells</artifactId>
+    <version>18.4</version>
+</dependency>
         <dependency>
             <groupId>org.glassfish</groupId>
             <artifactId>javax.faces</artifactId>
