@@ -78,7 +78,6 @@ public class LoaderService {
 
     public String fromInputStream(InputStream s, String name) {
         com.aspose.cells.Workbook w;
-        Converte
         LOGGER.info("file name:  " + name);
         try (InputStream i = s) {
             w = new com.aspose.cells.Workbook(i);
